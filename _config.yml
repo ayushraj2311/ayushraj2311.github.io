@@ -1,144 +1,105 @@
-# Site
-repository: ayushraj2311/ayushraj2311.github.io
+title: "Ayush Raj"
+description: "CS Undergrad | Prompt Engineering | AI Automation | Python | REST APIs"
 
-# Content configuration version
-version: 2
-
-# Personal info
-name: Ayush Raj
-title: AI + Automation Enthusiast | Solution Engineer (Early Career)
-email: ayushraj4207@gmail.com
+email: "ayushraj4207@gmail.com"
 phone: "+91 7541884619"
-website: https://ayushraj2311.github.io
-location: Ghaziabad, India
+location: "Ghaziabad, India"
 
-darkmode: false
+github_username: "ayushraj2311"
+linkedin_username: "ayush-raj-a2b28321b"
 
-# Social links
-github_username: ayushraj2311
-linkedin_username: ayush-raj-a2b28321b
-
-# Additional icon links
-additional_links:
-  - title: GitHub
-    icon: fab fa-github
-    url: https://github.com/ayushraj2311
-  - title: LinkedIn
-    icon: fab fa-linkedin
-    url: https://www.linkedin.com/in/ayush-raj-a2b28321b/
-
-# About Section
-about_profile_image: images/profile.jpg
-about_content: |
-  I'm a final-year B.Tech CS student passionate about building AI-driven solutions to automate real-world problems. My focus lies in Prompt Engineering, Python scripting, and end-to-end product delivery with tools like FastAPI, MongoDB, and OpenAI API.
-
-  I have hands-on experience in developing custom automation workflows, REST API integrations, and unstructured data pipelines. Recently, I built production-grade apps including an LLM-based Document Extractor and a Client Data Intake Automation Pipeline.
-
-  Outside of tech, I'm a basketball enthusiast and an active student leader, having led workshops on LLM APIs, Firebase, and Automation.
+avatar: "ayush.jpg" # Upload your profile image and rename it to this
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: left
-        border: weak
-        title: LLM-Based Document Extractor
-        link: https://github.com/ayushraj2311
-        link_text: GitHub Repo
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: https://github.com/ayushraj2311
-        quote: >
-          Few-shot prompted system to extract structured data from invoices, IDs, and contracts.
-        description: |
-          Built using OpenAI API + FastAPI + MongoDB. Deployed a backend that automates 95% of manual form filling for uploaded documents and contracts.
-
-      - layout: left
-        border: weak
-        title: Client Data Intake Automation
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: https://github.com/ayushraj2311
-        quote: >
-          End-to-end pipeline for automating PDF data extraction and validation.
-        description: |
-          Developed an intake flow using Python, Prompt Templates, and FastAPI. Integrated with REST APIs and built a Postman-documented suite for client use. Validated and stored extracted fields in MongoDB.
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: GoPro Media (Remote)
-        sub_title: Frontend Developer Intern
-        caption: May 2025 – June 2025
-        quote: >
-          Media agency specializing in brand campaigns and digital UI.
-        description: |
-          Developed responsive React UI components, integrated backend APIs, and optimized rendering performance, reducing page load times by 30%.
+  - title: About Me
+    layout: text
+    content: |
+      I'm a Computer Science undergraduate passionate about AI-driven automation, prompt engineering, and unstructured data extraction. I've built LLM-powered tools, automated data pipelines, and contributed to real-world projects using Python, FastAPI, and MongoDB. I'm eager to solve impactful problems and contribute to teams building scalable tech.
 
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: KIET Group of Institutions
-        sub_title: B.Tech – Computer Science & IT
-        caption: 2022 – 2026
+      - title: KIET Group of Institutions
+        sub_title: B.Tech in Computer Science & IT
+        caption: 2022 – 2026 | GPA: 7.8/10
         description: |
-          GPA: 7.8/10  
-          Relevant Courses: Data Structures, OS, DBMS, Computer Networks, Software Engineering
+          Relevant Courses: Data Structures, Operating Systems, DBMS, CN, SE.
 
-      - layout: top-right
-        title: Kendriya Vidyalaya No. 2, Patna
-        sub_title: Intermediate (PCM)
-        caption: 2021 – 84%  
+      - title: Kendriya Vidyalaya No. 2, Patna
+        sub_title: Intermediate & High School
+        caption: 2019 – 2021
         description: |
+          Intermediate (2021): 84%  
           High School (2019): 89%
 
+  - title: Projects
+    layout: list
+    content:
+      - title: LLM-Based Document Extractor
+        sub_title: Python, OpenAI API, FastAPI, MongoDB
+        description: |
+          Extracts structured data from contracts, invoices, and IDs using few-shot prompting. Scales manual form tasks with 95% automation.
+
+      - title: Client Data Intake Pipeline
+        sub_title: Python, FastAPI, MongoDB
+        description: |
+          Automates PDF field extraction and validation. Integrated with REST APIs, includes error handling and automated tests.
+
+  - title: Experience
+    layout: list
+    content:
+      - title: GoPro Media (Remote)
+        sub_title: Frontend Developer Intern
+        caption: May 2025 – June 2025
+        description: |
+          Developed React UI components, integrated backend APIs, and improved page load by 30%. Worked in CI/CD and Agile sprints.
+
   - title: Skills
-    layout: text
-    content: |
-      **Languages:** Python, C++, Bash, JavaScript  
-      **Frameworks/Tools:** FastAPI, Postman, Git, Wireshark, Scapy  
-      **Databases:** MongoDB, NoSQL, Firebase, SQL  
-      **AI/Automation:** Prompt Engineering, OpenAI API, REST APIs, JSON, Data Pipelines  
-      **Soft Skills:** Communication, Troubleshooting, Technical Documentation, Client Collaboration, Agile  
+    layout: list
+    content:
+      - title: Programming
+        description: |
+          Python, C++, Bash, JavaScript
+      - title: Tools & Frameworks
+        description: |
+          FastAPI, Git, Postman, Wireshark, PlatformIO
+      - title: AI & Automation
+        description: |
+          Prompt Engineering, OpenAI API, JSON, LLM Templates
+      - title: Databases & APIs
+        description: |
+          MongoDB, Firebase, NoSQL, REST APIs
+      - title: Concepts
+        description: |
+          Data Pipelines, Deployment, Troubleshooting, Technical Docs
 
-  - title: Certifications & Achievements
-    layout: text
-    content: |
-      - Prompt Engineering for Developers – DeepLearning.AI  
-      - Cisco Networking Basics, Python Essentials 1, AWS Cloud Foundations  
-      - Infosys Data Visualization, Cybersecurity Essentials, HTML/CSS  
-      - Finalist – SIH Hackathon (Mental Health App with LLM)  
-      - Solved 200+ DSA problems on LeetCode and Codeforces  
-      - Represented Bihar in U23 National Basketball Championship  
-      - Led campus workshops on LLM APIs, Firebase, and Automation Workflows
+  - title: Certifications
+    layout: list
+    content:
+      - title: Prompt Engineering for Developers
+        sub_title: DeepLearning.AI
+      - title: Networking Basics • Python Essentials • AWS Cloud
+        sub_title: Cisco, Infosys, LinkedIn
 
-# Footer
-footer_show_references: true
-references_title: References available upon request
+  - title: Achievements
+    layout: list
+    content:
+      - title: SIH Hackathon Finalist
+        description: |
+          Built a mental health app using NLP & AI.
+      - title: Bihar State Basketball Player
+        description: |
+          Represented Bihar at the National U23 Championship.
+      - title: 200+ DSA Problems
+        description: |
+          Solved on LeetCode and Codeforces.
 
-# Build settings
-remote_theme: sproogen/modern-resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-]
+  - title: Leadership & Community
+    layout: list
+    content:
+      - title: Dev Cell & NGO Campaigns
+        description: |
+          Led events and awareness drives on campus.
+      - title: Campus Trainer
+        description: |
+          Conducted workshops on Prompt Engineering and Firebase.
